@@ -1,74 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-
-      h1 {
-        font-size: 34px;
-        font-style: bold arial;
-        background-color: yellow;
-      }
-     
-      .column1 {
-        float: left;
-        width: 500px;
-        height: 300px;
-        font-size: 34px;
-        background-color: red;
-      }
-
-      .column2 {
-        float: left;
-        width: 500px;
-        height: 300px;
-        font-size: 34px;
-        color: yellow;
-        background-color: black;
-      }
-
-      .column3 {
-        float: left;
-        width: 500px;
-        height: 300px;
-        font-size: 34px;
-        background-color: blue;
-      }
-
-    </style>
-
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  </head>
-
-    <body>
+  <html>
+    <head>
+        <script src="jquery-2.1.4.js"></script>
+        <script src="main.js"></script>
+            <link rel="stylesheet" href="../lesson6/styles/style.css">
+    </head>
+      <body>
         <h1>Lesson6</h1>
           <h2 class="welcome">Welcome to my jQuery Page</h2>
              <p> All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness. - Mark Kennedy
              <p>
 
-      <div class="column1">Column 1</div>
+                <div class="column1">Column 1</div>
 
-      <div class="column2">Column 2</div>
+                <div class="column2">Column 2</div>
 
-      <div class="column3">Column 3</div>
-
-      <script>
-      $(document).ready(function() {
-        $("h1").hide(3000, function() {
-        });
-
-        $(".column1").slideUp(3000, function() {
-          $(".column1").slideDown(3000);
-        });
-
-        $(".column2").click(function() {
-          alert("jQuery is cool isn't it?");
-        });
-
-        $(".column3").slideUp(1000, function() {
-        $(".column3").slideDown(1000);
-        });
-        
-      });
-      </script>
-  </body>
-</html>
+                <div class="column3">Column 3</div>
+      </body>
+  </html>

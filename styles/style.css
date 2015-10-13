@@ -1,0 +1,30 @@
+h1 {
+        font-size: 34px;
+        font-style: bold arial;
+        background-color: yellow;
+      }
+     
+      .column1 {
+        float: left;
+        width: 500px;
+        height: 300px;
+        font-size: 34px;
+        background-color: red;
+      }
+
+      .column2 {
+        float: left;
+        width: 500px;
+        height: 300px;
+        font-size: 34px;
+        color: yellow;
+        background-color: black;
+      }
+
+      .column3 {
+        float: left;
+        width: 500px;
+        height: 300px;
+        font-size: 34px;
+        background-color: blue;
+      }
